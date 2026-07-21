@@ -1,6 +1,7 @@
 class Ngstone < Formula
   desc "Self-hosted HTTP tunnel, a personal ngrok alternative"
   homepage "https://github.com/emilio-kariuki/ngstone"
+  license "MIT"
   version "0.1.0"
 
   on_macos do
