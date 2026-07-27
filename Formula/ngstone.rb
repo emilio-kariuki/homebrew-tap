@@ -2,27 +2,27 @@ class Ngstone < Formula
   desc "Self-hosted HTTP tunnel, a personal ngrok alternative"
   homepage "https://github.com/emilio-kariuki/ngstone"
   license "MIT"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.3.0/ngstone_darwin_arm64.tar.gz"
-      sha256 "eb54de9db61dcf20642b2204dd1cf5b24189a9e0597a21853b13014110a0e117"
+      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.3.1/ngstone_darwin_arm64.tar.gz"
+      sha256 "8a111c452e3f2f2f43f54fb29f18f483ca07a27ead697963bb2207c266da9c54"
     end
     on_intel do
-      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.3.0/ngstone_darwin_amd64.tar.gz"
-      sha256 "c8a1ecbbc804f2529bc3f6fa61d57c8264b8d869e27c38034a03f6b602b57214"
+      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.3.1/ngstone_darwin_amd64.tar.gz"
+      sha256 "d7e94c01af313ecca35b4e89533914bbb9d57234d70129ae039d207acd84f3d5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.3.0/ngstone_linux_arm64.tar.gz"
-      sha256 "d4b4074f126416a07dc688965ef2ddbf4e6cdaf6b1fd370dfbb3f1a4b83bc9be"
+      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.3.1/ngstone_linux_arm64.tar.gz"
+      sha256 "ffe720ea9aa2975b035f4fd2b59217baa3d194f8c74c71f8435fa608b800456f"
     end
     on_intel do
-      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.3.0/ngstone_linux_amd64.tar.gz"
-      sha256 "62139a6c58fb4ea7025fe7ee5872f347c1ca93f2224a829b41d55a0d8730f515"
+      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.3.1/ngstone_linux_amd64.tar.gz"
+      sha256 "6dbde9ecb60fbb01f6e6b507587f89b103f44eb12ff9f0d88cceb98536e2fe8d"
     end
   end
 
