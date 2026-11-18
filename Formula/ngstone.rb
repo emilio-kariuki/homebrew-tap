@@ -4,23 +4,23 @@ class Ngstone < Formula
   license "MIT"
   on_macos do
     on_arm do
-      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.3.2/ngstone_darwin_arm64.tar.gz"
-      sha256 "612d02fea3c2266e226f05aaa7f2b7380ba9042c1715b44f897786bd86a84fd9"
+      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.6.0/ngstone_darwin_arm64.tar.gz"
+      sha256 "0ce5cb9c45a939b5b0d251615cb9aeed5fa2d10f82166b9f9e2ad3441c429a27"
     end
     on_intel do
-      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.3.2/ngstone_darwin_amd64.tar.gz"
-      sha256 "727b0464770b1d653e8a81191ed9a708b3745129ac95f286cbd91a25ea9c47d0"
+      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.6.0/ngstone_darwin_amd64.tar.gz"
+      sha256 "36b396662762c6190c33d99c6d234f768725bd7d144fbc9da1769178f56705aa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.3.2/ngstone_linux_arm64.tar.gz"
-      sha256 "b12b07ec658b81377cb086841d2cc27f1bcb9a068bd503b8677bc754883f7eb7"
+      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.6.0/ngstone_linux_arm64.tar.gz"
+      sha256 "5b5ce0dffa37f4f80c02f9e2cacf69458704eb825aed3c217fdae7c61cc04020"
     end
     on_intel do
-      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.3.2/ngstone_linux_amd64.tar.gz"
-      sha256 "cf97eb62779d0b14cf763739d4ee26f13b874f9ff9ada266062a7fed984a0013"
+      url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.6.0/ngstone_linux_amd64.tar.gz"
+      sha256 "f9934e52fb1c8db2c5f4ce38bcf1480d37201029950b700bcb0dfa969324792d"
     end
   end
 
