@@ -5,22 +5,22 @@ class Ngstone < Formula
   on_macos do
     on_arm do
       url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.6.0/ngstone_darwin_arm64.tar.gz"
-      sha256 "0ce5cb9c45a939b5b0d251615cb9aeed5fa2d10f82166b9f9e2ad3441c429a27"
+      sha256 "15055901cc7ebc3ca2079f373717d419bd067f954aa530c60dd6a03bf743a9e5"
     end
     on_intel do
       url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.6.0/ngstone_darwin_amd64.tar.gz"
-      sha256 "36b396662762c6190c33d99c6d234f768725bd7d144fbc9da1769178f56705aa"
+      sha256 "c65faafc057fc7a77a4ad6d23db88ec94fb4a2b0feb035781bc32a8ae3a4f0cd"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.6.0/ngstone_linux_arm64.tar.gz"
-      sha256 "5b5ce0dffa37f4f80c02f9e2cacf69458704eb825aed3c217fdae7c61cc04020"
+      sha256 "a3aa73bca9298aa768f475fca195411cd0aada1d4011c1c2e646e9ae35263d76"
     end
     on_intel do
       url "https://github.com/emilio-kariuki/ngstone/releases/download/v0.6.0/ngstone_linux_amd64.tar.gz"
-      sha256 "f9934e52fb1c8db2c5f4ce38bcf1480d37201029950b700bcb0dfa969324792d"
+      sha256 "46c8043dc4fc135c591b91a8bab43b869d860431135ac0fe1018fa748837354c"
     end
   end
 
